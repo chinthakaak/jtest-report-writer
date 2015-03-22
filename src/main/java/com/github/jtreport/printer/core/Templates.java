@@ -99,7 +99,7 @@ public class Templates {
 
 		// final HyperLinkBuilder link = hyperLink("http://jtreport.sourceforge.net");
 		dynamicReportsComponent = cmp.horizontalList(cmp.verticalList(cmp.image(
-				Templates.class.getClassLoader().getResource("img/Intel_logo.png")).setHorizontalAlignment(
+				Templates.class.getClassLoader().getResource("img/logo.png")).setHorizontalAlignment(
 				HorizontalAlignment.RIGHT)/*
 										 * , cmp.text("http://jtreport.sourceforge.net").setStyle(italicStyle)
 										 * .setHyperLink(link).setHorizontalAlignment(HorizontalAlignment.RIGHT)
